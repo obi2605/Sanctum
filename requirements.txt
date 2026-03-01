@@ -1,0 +1,21 @@
+# --- Core Web Interface ---
+streamlit==1.31.0
+
+# --- AMD Hardware Acceleration (Vitis AI & ROCm) ---
+# Note: Requires AMD SW Stack / Vitis AI 3.5+ for NPU offloading
+onnxruntime-vitisai==1.16.0
+vitis-ai-library==3.5.0
+
+# --- Audio & Vision Intelligence ---
+faster-whisper==0.10.0
+opencv-python-headless==4.8.1.78
+ultralytics==8.0.196  # For the "Smart Pause" Vision Model
+
+# --- Local Memory & LLM ---
+chromadb==0.4.22      # Local Vector Database
+ollama==0.1.6         # Interface for local Llama-3 via ROCm
+sentence-transformers==2.3.1
+
+# --- Utilities ---
+pydantic==2.6.1
+python-dotenv==1.0.1

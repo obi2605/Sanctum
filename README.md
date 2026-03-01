@@ -30,7 +30,7 @@ Building a 24/7 Life-Log Agent forces a dilemma: surrender your life to cloud su
 *Note: This repository contains the core processing pipeline and terminal-based simulation for the AMD Slingshot MVP.*
 
 ```bash
-git clone [https://github.com/yourusername/Sanctum-AMD-Slingshot.git](https://github.com/yourusername/Sanctum-AMD-Slingshot.git)
-cd Sanctum-AMD-Slingshot
+git clone [https://github.com/obi2605/Sanctum.git](https://github.com/obi2605/Sanctum.git)
+cd Sanctum
 pip install -r requirements.txt
-python main.py
+streamlit run app.py
